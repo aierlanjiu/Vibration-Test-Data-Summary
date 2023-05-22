@@ -104,23 +104,3 @@ root
 
 
 
-LaWGPT
-├── assets    # 静态资源
-├── resources # 项目资源
-├── models    # 基座模型及 lora 权重
-│   ├── base_models
-│   └── lora_weights
-├── outputs   # 指令微调的输出权重
-├── data      # 实验数据
-├── scripts   # 脚本目录
-│   ├── finetune.sh # 指令微调脚本
-│   └── webui.sh    # 启动服务脚本
-├── templates # prompt 模板
-├── tools     # 工具包
-├── utils
-├── train_clm.py  # 二次训练
-├── finetune.py   # 指令微调
-├── webui.py      # 启动服务
-├── README.md
-└── requirements.txt
-
