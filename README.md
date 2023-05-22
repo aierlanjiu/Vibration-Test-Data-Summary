@@ -33,9 +33,9 @@
 
 /
 root/
-|—— data/
-|   |__ raw_data/ # 原始数据存放文件夹
-|   |__ cleaned_data/ # 筛选清洗后的数据存放文件夹
+/|—— data/
+/|   |__ raw_data/ # 原始数据存放文件夹
+/|   |__ cleaned_data/ # 筛选清洗后的数据存放文件夹
 
 |—— result/
 |   |__ rds_value/ # 每500rpm的RMS值及正态分布区间预测结果
