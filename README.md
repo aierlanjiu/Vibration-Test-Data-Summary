@@ -39,7 +39,7 @@ root/
 |   |__ rds_value/       # 每500rpm的RMS值及正态分布区间预测结果
 |   |__ targetline/      # 拟合的趋势线预测目标值
 |   |__ visualization/   # 不同扭矩下、不同工况下振动散点图、边际图和振动敏感转速区识别等结果
-|   ![Alt text](.root/result/visualization/07 dataoverview/dataoverview/05 torque correlation/9.62 order run up topZ.png)
+
 |—— src/
 |   |__ preprocessing.py    # 数据预处理模块（导入Excel、筛选清洗）
 |   |__ rds_predict.py      # RMS值预测及正态分布区间计算模块
