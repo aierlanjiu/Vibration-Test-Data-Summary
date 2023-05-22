@@ -33,14 +33,30 @@
 
 
 root
+
+
   data
+  
+  
     raw_data # 原始数据存放文件夹
+    
+    
     cleaned_data # 筛选清洗后的数据存放文件夹
+    
+    
 
   result
+  
+  
     rds_value # 每500rpm的RMS值及正态分布区间预测结果
+    
+    
     targetline # 拟合的趋势线预测目标值
+    
+    
     visualization # 不同扭矩下、不同工况下振动散点图、边际图和振动敏感转速区识别等结果
+    
+    
 
   src
     preprocessing.py # 数据预处理模块（导入Excel、筛选清洗）
