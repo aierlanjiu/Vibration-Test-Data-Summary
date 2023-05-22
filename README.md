@@ -35,71 +35,32 @@
 <img src="./result/visualization/07 dataoverview/dataoverview/04 targetline/9.62 order run down_frames_results_targetline_topX_15Nm.png" alt="基于最大振动值的趋势线预测"/>
 <img src="./result/visualization/07 dataoverview/dataoverview/05 torque correlation/9.62 order run down topX.png" alt="不同扭矩间振动相关性"/>
 
-root
 
 
-  data
-  
-  
-    raw_data # 原始数据存放文件夹
-    
-    
-    cleaned_data # 筛选清洗后的数据存放文件夹
-    
-    
+# 项目文件结构
 
-  result
-  
-  
-    rds_value # 每500rpm的RMS值及正态分布区间预测结果
-    
-    
-    targetline # 拟合的趋势线预测目标值
+此项目包含如下文件和文件夹：
 
-
-    visualization # 不同扭矩下、不同工况下振动散点图、边际图和振动敏感转速区识别等结果
-    
-    
-
-  src
-  
-  
-    preprocessing.py # 数据预处理模块（导入Excel、筛选清洗）
-    
-    
-    rds_predict.py # RMS值预测及正态分布区间计算模块
-    
-    
-    max_point.py # 最大振动点及其转速边际图绘制模块
-    
-    
-    serial.py # 绘制不同扭矩下、不同工况下振动散点图模块
-    
-    
-    fitting_curve.py # 拟合趋势线并生成目标值模块
-    
-    
-    torque_corr.py # 计算不同扭矩的振动相关性
-    
-    
-    conditions.py # 根据特殊测点排列各工况振动敏感度，推荐关注的扭矩和转速
-    
-    
-    point_sensitive.py #敏感测点排序
-    
-    
-    serial_sensitive.py #按照振动量级对测试的减速器进行排序
-    
-    
-
-  test
-
-
-  main.py # 项目主程序入口文件
-  
-  
-  requirements.txt # Python依赖库清单
-  
+- `data` - 包含原始数据和经过筛选清洗后得到的数据。
+  - `raw_data` - 存放原始数据的文件夹。
+  - `cleaned_data` - 存放筛选清洗后的数据的文件夹。
+- `result` - 存放计算出的预测结果和可视化结果。
+  - `rds_value` - 存放RMS值及正态分布区间预测结果的文件夹（每500rpm）。
+  - `targetline` - 存放拟合的趋势线预测目标值的文件夹。
+  - `visualization` - 存放不同扭矩下、不同工况下振动散点图、边际图和振动敏感转速区识别等结果的文件夹。
+- `src` - 存放项目中用到的Python模块。
+  - `preprocessing.py` - 数据预处理模块（导入Excel、筛选清洗）。
+  - `rds_predict.py` - RMS值预测及正态分布区间计算模块。
+  - `max_point.py` - 最大振动点及其转速边际图绘制模块。
+  - `serial.py` - 绘制不同扭矩下、不同工况下振动散点图模块。
+  - `fitting_curve.py` - 拟合趋势线并生成目标值模块。
+  - `torque_corr.py` - 计算不同扭矩的振动相关性模块。
+  - `conditions.py` - 根据特殊测点排列各工况振动敏感度，推荐关注的扭矩和转速模块。
+  - `point_sensitive.py` - 敏感测点排序模块。
+  - `serial_sensitive.py` - 按照振动量级对测试的减速器进行排序模块。
+- `test` - 存放项目测试代码的文件夹。
+- `main.py` - 项目主程序入口文件。
+- `requirements.txt` - Python依赖库清单。
 
 
 
