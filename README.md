@@ -30,7 +30,8 @@
 另外，本项目还包含自动生成PPT的功能，可以帮助用户更好地理解数据并展示结果。这包括使用Python编程语言创建表格、制图、添加文字等过程来自动化生成PPT文件。
 
 最后，我们致力于共享和开放本项目的源代码，并欢迎社区成员贡献代码和提出改进建议。
-<img src="./result/visualization/07 dataoverview/dataoverview/04 targetline/9.62 order run down_frames_results_targetline_topX_15Nm.png" alt="图片描述"/>
+<img src="./result/visualization/07 dataoverview/dataoverview/04 targetline/9.62 order run down_frames_results_targetline_topX_15Nm.png" alt="基于最大振动值的趋势线预测"/>
+<img src="./result/visualization/07 dataoverview/dataoverview/05 torque correlation/9.62 order run down topX.png" alt="不同扭矩间振动相关性"/>
 
 root
 
