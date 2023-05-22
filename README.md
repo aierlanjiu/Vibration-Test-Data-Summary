@@ -31,7 +31,7 @@
 
 最后，我们致力于共享和开放本项目的源代码，并欢迎社区成员贡献代码和提出改进建议。
 <img src="./result/visualization/06 Sigle reducer line plot/9.62 order run down_frames_results_smooth_curve_input shaft+Y_2302211000033.png" alt="单体减速器振动"/>
-<img src="./result/visualization/03 RMS boxplot for prototypes/9.62 order run down_frames_results_box_plot_15Nm_input shaft+Y.png />
+<img src="./result/visualization/03 RMS boxplot for prototypes/9.62 order run down_frames_results_box_plot_15Nm_input shaft+Y.png" />
 <img src="./result/visualization/07 dataoverview/dataoverview/04 targetline/9.62 order run down_frames_results_targetline_topX_15Nm.png" alt="基于最大振动值的趋势线预测"/>
 <img src="./result/visualization/07 dataoverview/dataoverview/05 torque correlation/9.62 order run down topX.png" alt="不同扭矩间振动相关性"/>
 
