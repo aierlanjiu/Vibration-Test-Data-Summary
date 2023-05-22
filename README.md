@@ -31,34 +31,34 @@
 
 最后，我们致力于共享和开放本项目的源代码，并欢迎社区成员贡献代码和提出改进建议。
 root/
-|—— data/   
-|   |__ raw_data/        # 原始数据存放文件夹
-|   |__ cleaned_data/    # 筛选清洗后的数据存放文件夹
-|
-|—— result/  
-|   |__ rds_value/       # 每500rpm的RMS值及正态分布区间预测结果
-|   |__ targetline/      # 拟合的趋势线预测目标值
-|   |__ visualization/   # 不同扭矩下、不同工况下振动散点图、边际图和振动敏感转速区识别等结果
+|—— data/
+|   |__ raw_data/ # 原始数据存放文件夹
+|   |__ cleaned_data/ # 筛选清洗后的数据存放文件夹
+
+|—— result/
+|   |__ rds_value/ # 每500rpm的RMS值及正态分布区间预测结果
+|   |__ targetline/ # 拟合的趋势线预测目标值
+|   |__ visualization/ # 不同扭矩下、不同工况下振动散点图、边际图和振动敏感转速区识别等结果
 
 |—— src/
-|   |__ preprocessing.py    # 数据预处理模块（导入Excel、筛选清洗）
-|   |__ rds_predict.py      # RMS值预测及正态分布区间计算模块
-|   |__ max_point.py        # 最大振动点及其转速边际图绘制模块
-|   |__ serial.py           # 绘制不同扭矩下、不同工况下振动散点图模块
-|   |__ fitting_curve.py    # 拟合趋势线并生成目标值模块
-|   |__ torque_corr.py      # 计算不同扭矩的振动相关性
-|   |__ conditions.py       # 根据特殊测点排列各工况振动敏感度，推荐关注的扭矩和转速
-|   |__ point_sensitive.py  #敏感测点排序
+|   |__ preprocessing.py # 数据预处理模块（导入Excel、筛选清洗）
+|   |__ rds_predict.py # RMS值预测及正态分布区间计算模块
+|   |__ max_point.py # 最大振动点及其转速边际图绘制模块
+|   |__ serial.py # 绘制不同扭矩下、不同工况下振动散点图模块
+|   |__ fitting_curve.py # 拟合趋势线并生成目标值模块
+|   |__ torque_corr.py # 计算不同扭矩的振动相关性
+|   |__ conditions.py # 根据特殊测点排列各工况振动敏感度，推荐关注的扭矩和转速
+|   |__ point_sensitive.py #敏感测点排序
 |   |__ serial_sensitive.py #按照振动量级对测试的减速器进行排序
 
+|—— test/
+|   |__ test_preprocessing.py # 数据预处理模块测试代码
+|   |__ test_rds_predict.py # RMS值预测及正态分布区间计算模块测试代码
+|   |__ test_max_point.py # 最大振动点及其转速边际图绘制模块测试代码
+|   |__ test_visualization.py # 绘制不同扭矩下、不同工况下振动散点图、边际图和振动敏感转速区识别等模块测试代码
+|   |__ test_fitting_curve.py # 拟合趋势线并生成目标值模块测试代码
 
-|—— test/  
-|   |__ test_preprocessing.py    # 数据预处理模块测试代码
-|   |__ test_rds_predict.py      # RMS值预测及正态分布区间计算模块测试代码
-|   |__ test_max_point.py        # 最大振动点及其转速边际图绘制模块测试代码
-|   |__ test_visualization.py    # 绘制不同扭矩下、不同工况下振动散点图、边际图和振动敏感转速区识别等模块测试代码
-|   |__ test_fitting_curve.py    # 拟合趋势线并生成目标值模块测试代码
-|
-|—— main.py                   # 项目主程序入口文件
-|—— requirements.txt          # Python依赖库清单
+|—— main.py # 项目主程序入口文件
+|—— requirements.txt # Python依赖库清单
+
 
