@@ -61,6 +61,10 @@
 - `test` - 存放项目测试代码的文件夹。
 - `main.py` - 项目主程序入口文件。
 - `requirements.txt` - Python依赖库清单。
+### 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=aierlanjiu/Vibration-Test-Data-Summary&type=Date)](https://star-history.com/#aierlanjiu/Vibration-Test-Data-Summary&Date)
+
 
 
 
